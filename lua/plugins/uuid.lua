@@ -1,3 +1,4 @@
+-- https://github.com/TrevorS/uuid-nvim
 return {
   "TrevorS/uuid-nvim",
   lazy = true,
@@ -6,7 +7,7 @@ return {
     -- optional configuration
     require("uuid-nvim").setup({
       case = "lower",
-      quotes = "double",
+      quotes = "single",
     })
   end,
 }
